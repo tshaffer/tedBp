@@ -26,7 +26,33 @@ const App = (props: AppProps) => {
 
   React.useEffect(props.onMakePizza, []);
 
-  return <Button color="primary">Hello World</Button>;
+  return (
+    <div>
+      <div>
+        <Button color="primary">Hello World, Goodbye Pizza</Button>
+      </div>
+      <div>
+        <Button color="primary">Hello World, Goodbye Pizza</Button>
+      </div>
+      <div>
+        <Button color="primary">Hello World, Goodbye Pizza</Button>
+      </div>
+      <div>
+        <Button color="primary">Hello World, Goodbye Pizza</Button>
+      </div>
+      <div>
+        <Button color="primary">Hello World, Goodbye Pizza</Button>
+      </div>
+      <div>
+        <Button color="primary">Hello World, Goodbye Pizza</Button>
+      </div>
+      <div>
+        <Button color="primary">Hello World, Goodbye Pizza</Button>
+      </div>
+      <div>
+        <Button color="primary">Hello World, Goodbye Pizza</Button>
+      </div>
+    </div>);
 
   // return (
   //   <div>pizza</div>
